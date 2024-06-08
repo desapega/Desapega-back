@@ -2,18 +2,17 @@ package com.desapega.infra.models;
 
 import com.desapega.domains.utils.enums.Condicao;
 import com.desapega.domains.utils.enums.Status;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
+import jakarta.persistence.*;
+import lombok.*;
 
-import javax.persistence.*;
 import java.time.LocalDateTime;
 
-@Entity
-@Table(name = "produtos")
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
+@Table(name = "produtos")
+@Entity
 public class Product {
 
     @Id

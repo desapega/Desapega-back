@@ -3,7 +3,8 @@ package com.desapega.domains.message;
 public class ProductMessage {
 
     // general exceptions
-    public static final String PRODUCT_NOT_FOUND_EXCEPTION = "O produto solicitado não foi encontrado. Por favor, verifique se o {id} do produto está correto.";
+    public static final String PRODUCT_NOT_FOUND_EXCEPTION = "Nenhum produto encontrado na base de dados.";
+    public static final String PRODUCT_BY_ID_NOT_FOUND_EXCEPTION = "O produto solicitado não foi encontrado. Por favor, verifique se o {id} do produto está correto.";
 
     public static final String PRODUCT_ALREADY_EXISTS_EXCEPTION = "Este produto já foi cadastrado. Por favor, verifique os detalhes do produto.";
 
